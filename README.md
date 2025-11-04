@@ -10,6 +10,8 @@ During operation, Python continously receives streaming EMG from the armband, pr
 
 Arduino Nano 33 IoT serves as the BLE bridge between the host computer and the MIA hand. It receives the gesture index over the socket, maps it to an 18-character ASCII command recognized by the MIA firmware, and transmits it through UART. The MIA Hand's onboard contorller can interpret these commands to actuate its motor.
 
+![EMG Robotic Control Demo](hand_control.gif)
+
 ## Pipeline
 
 ### 1. Signal Acquisition 
